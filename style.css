@@ -71,10 +71,33 @@ nav{
 }
 .click_buttons a:hover{
     background-image: linear-gradient(to right, #9DCBB9,#D32F2F);
-    color: #ffffff;
 }
 #about{
     background-image: linear-gradient(to right, #1cdb6b,#e0cfcf);
+}
+#about_title{
+    text-align: left;
+    font-size: 50px;
+    padding-top: 10px;
+}
+.about_img_description{
+    display: flex;
+    text-align:center;
+
+}
+#my_image{
+    display: flex;
+    justify-content: left;
+    padding-top: 20px;
+
+}
+#about_description{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+#about_me{
+font-size: 25px;
 }
 #skills{
     background-image: linear-gradient(to right, #7412f5,#e0cfcf);
