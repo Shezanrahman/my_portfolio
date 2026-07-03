@@ -3,14 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 nav{
     background-image: linear-gradient(to left, #9dccba,#c20d0d);
-}
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
 }
 .navbar{
     display: flex;
@@ -22,6 +16,11 @@ nav{
     text-decoration:none;
     color: black;
     font-size: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .nav_links {
@@ -37,67 +36,81 @@ nav{
     background-color: #000000;
     color: #ffffff;
 }
-#home{
+.home{
     background-image: linear-gradient(to right, #d42c2c,#9dccba);
     text-align: center;
-    font-size: 60px;
     height: 100vh;
 }
 .home_title{
-    font-size:60px;
+    font-size:3.5rem;
     padding-top: 60px;
 }
 .home_subtitle{
-    font-size:80px;
-    text-shadow: 2px 2px 4px #000000; 
+    font-size:5rem;
+    text-shadow: 2px 2px 4px #9dccba; 
 }
 .home_description{
-    font-size: 50px;
+    font-size: 3.5rem;
     padding-top: 30px;
 }
 
-.click_buttons{
+.click_button{
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px 4px #9dccba;
 }
-.click_buttons a{
+.click_button a{
     text-decoration:none;
     background-image: linear-gradient(to right, #D32F2F,#9DCBB9);
     font-size: 50px;
-    padding: 10px 20px;
-    border-radius: 60px;
+    padding: 10px 30px;
+    border-radius: 50px;
     margin-top: 120px;   
     color: #000000;
 }
-.click_buttons a:hover{
+.click_button a:hover{
     background-image: linear-gradient(to right, #9DCBB9,#D32F2F);
 }
-#about{
-    background-image: linear-gradient(to right, #1cdb6b,#e0cfcf);
+.about{
+    background-image: linear-gradient(to left, #d42c2c,#9dccba);
+    height: 100vh;
 }
-#about_title{
+.about_title{
     text-align: left;
     font-size: 50px;
-    padding-top: 10px;
+    padding-top: 30px;
+    margin-left: 30px;
 }
-.about_img_description{
+p{
+    font-size: 42px;
+}
+.about_container{
     display: flex;
-    text-align:center;
-
-}
-#my_image{
-    display: flex;
-    justify-content: left;
-    padding-top: 20px;
-
-}
-#about_description{
-    padding-top: 20px;
+    margin-top: 20px;
     font-size: 30px;
-    text-align: left;
 }
-#about_me{
-font-size: 25px;
+.image_sec{
+    justify-content:left;
+    margin-left: 30px;
+}
+.about_description{
+    display: flex;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.quick_facts{
+    margin-top: 70px;
+}
+.quick_facts_all{
+    margin-top: 10px;
+    list-style-type: none;
+}
+.about_me{
+    font-size:40px ;
+}
+h8{
+    font-size: 32px;
 }
 #skills{
     background-image: linear-gradient(to right, #7412f5,#e0cfcf);
