@@ -112,15 +112,32 @@ p{
 h8{
     font-size: 32px;
 }
-#skills{
-    background-image: linear-gradient(to right, #7412f5,#e0cfcf);
+.skills{
+    background-image: linear-gradient(to left, #9dccba,#c20d0d);
+    height: 100vh;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
 }
-#projects{
-    background-image: linear-gradient(to right, #d60d7c,#e0cfcf);
+.projects{
+    background-image: linear-gradient(to right, #9dccba,#c20d0d);
+    height: 100vh;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 180px;
 }
-#contact{
-    background-image: linear-gradient(to right, #d6860e,#e0cfcf);
+.contact{
+    background-image: linear-gradient(to left, #9dccba,#c20d0d);
+    text-align: center;
+    height: 100vh;
+    font-size: 70px;
+    padding-top: 170px;
+}
+.my_contacts{
+    
 }
 footer{
-    background-image: linear-gradient(to right, #3ba112,#e0cfcf);
+    background-image: linear-gradient(to right, #9dccba,#c20d0d);
+    text-align: center;
+    font-size:30px;
 }
