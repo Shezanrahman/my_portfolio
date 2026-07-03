@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-image: linear-gradient(to left, #9dccba,#c20d0d);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar a{
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav_links {
+    display:flex;
+    list-style:none;
+    gap: 20px;
+}
+.nav_links li a{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav_links li a:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+#home{
+    background-image: linear-gradient(to right, #d42c2c,#9dccba);
+    text-align: center;
+    font-size: 60px;
+    height: 100vh;
+}
+.home_title{
+    font-size:60px;
+    padding-top: 60px;
+}
+.home_subtitle{
+    font-size:80px;
+    text-shadow: 2px 2px 4px #000000; 
+}
+.home_description{
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.click_buttons{
+    display: flex;
+    justify-content: center;
+}
+.click_buttons a{
+    text-decoration:none;
+    background-image: linear-gradient(to right, #D32F2F,#9DCBB9);
+    font-size: 50px;
+    padding: 10px 20px;
+    border-radius: 60px;
+    margin-top: 120px;   
+    color: #000000;
+}
+.click_buttons a:hover{
+    background-image: linear-gradient(to right, #9DCBB9,#D32F2F);
+    color: #ffffff;
+}
+#about{
+    background-image: linear-gradient(to right, #1cdb6b,#e0cfcf);
+}
+#skills{
+    background-image: linear-gradient(to right, #7412f5,#e0cfcf);
+}
+#projects{
+    background-image: linear-gradient(to right, #d60d7c,#e0cfcf);
+}
+#contact{
+    background-image: linear-gradient(to right, #d6860e,#e0cfcf);
+}
+footer{
+    background-image: linear-gradient(to right, #3ba112,#e0cfcf);
+}
