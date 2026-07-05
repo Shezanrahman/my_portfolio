@@ -4,88 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turning Ideas Into Applications</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
      <!-- Navigation Bar -->
     <nav class="navbar">   
         <!-- Logo section -->
-         <div>
-            <section class="logo">
-                <img src="images/mainlogo.png" alt="Shezan" width="50">
-                <h1>Shezan</h1>
-            </section>
+        <div class="nav_logo">
+            <img src="images/mainlogo.png" alt="Shezan" width="50">
+            <h1>Shezan</h1>
         </div>
         <!-- Navigation Links Section -->
         <div>
-            <section>
-                <ul class="nav_links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </section>
+            <ul class="nav_links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
     <!-- Main Section -->
      <main>
-    <!-- Header Section -->
-        <header>
-            <section></section>
-        </header>
-        <!--all sections-->
-        <div>
-            <!-- Home section-->
-            <section id="home" class="home">
-                <section>
-                    <div class="home_title">
-                        <h1>I am Shezan</h1>
+        <!-- Home section-->
+        <section id="home" class="home">
+            <div>
+                <div class="home_title">
+                    <h1>I am Shezan</h1>
+                </div>
+                <div class="home_subtitle">
+                    <h2>Full Stack Developer</h2>
+                </div>
+                <div class="home_description">
+                    <p>Welcome to my <b>portfolio!</b> I am a passionate developer dedicated to transforming innovative ideas into functional and user-friendly applications.</p>
+                </div>
+            </div>
+            <div class="hire_button">
+                    <a href="#contact"><b>Hire me</b></a>
+            </div>
+        </section>
+        <!-- About section-->
+        <section id="about" class="about">
+            <h2 class="about_title">About me</h2>
+            <!--Image section-->
+            <section class="about_container">
+                <div>
+                    <img class="about_img" src="images/myphoto.JPG" alt="Shezan" >
+                </div>
+                <!--Description section-->
+                <div class="about_info">
+                    <p><b>Hello!</b> My name is Shezan, and I am a passionate <strong>Full Stack Developer</strong> with a strong background in both frontend and backend development. I have a keen interest in creating innovative <strong>web applications</strong> that provide seamless user experiences.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="about_quick_facts">
+                        <h3>Quick Facts</h3>
+                        <ul class="about_quick_all">
+                            <li>Green University Of Bangladesh</li>
+                            <li>BSC in Computer Science</li>
+                            <li>Dhaka, Bangladesh</li>
+                            <li>CGPA: 3.85</li>
+                         </ul>
                     </div>
-                    <div class="home_subtitle">
-                        <h2>Full Stack Developer</h2>
-                    </div>
-                    <div class="home_description">
-                        <p>Welcome to my <b>portfolio!</b> I am a passionate developer dedicated to transforming innovative ideas into functional and user-friendly applications.</p>
-                    </div>
-                    <div class="click_button">
-                        <a class="hire_me"href="#contact"><b>Hire me</b></a>
-                    </div>
-                </section>
-            </section>
-            <section id="about" class="about">
-                <h2 class="about_title">About me</h2>
-                    <!--Image section-->
-                    <section class="about_container">
-                        <section >
-                            <img class="image_sec" src="images/myphoto.JPG" alt="Shezan" >
-                        </section>
-                        <!--description section-->
-                        <section class="image_sec2">
-                            <p><b>Hello!</b> My name is Shezan, and I am a passionate <strong>Full Stack Developer</strong> with a strong background in both frontend and backend development. I have a keen interest in creating innovative <strong>web applications</strong> that provide seamless user experiences.</p>
-                            <h3 class="quick_facts">Quick Facts</h3>
-                                <ul class="quick_facts_all">
-                                    <li>Green University Of Bangladesh</li>
-                                    <li>BSC in Computer Science</li>
-                                    <li>Dhaka, Bangladesh</li>
-                                    <li>CGPA: 3.85</li>
-                                </ul>
-                                <br>
-                                <br>
-                            <section class ="about_me">   
+                        <br>
+                        <br>
+                    <div class ="about_me">   
+                        <div>
                             <img src="images/code.png" alt="logo" width="25">
-                            <h4 class="about_me">Shezan rahman</h4>
+                        </div>
+                        <div>
+                            <h4>Shezan rahman</h4>
                             <h8>Software Developer based in Kushtia,<br>Dhaka, Bangladesh.</h8>
-                            </section>
-                        </section>
-                    </section> 
-            </section>     
-            <!-- Skills section--> 
-            <section id="skills" class="skills">
-                <section>
-                    <h1>My Skills</h1>
-                    <h2>Frontend:</h2>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        </section>     
+        <!-- Skills section--> 
+        <section id="skills" class="skills">
+            <section>
+                <h1>My Skills</h1>
+                <h2>Frontend:</h2>
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -127,7 +128,6 @@
                         <lebel>Timezone: Asia/Dhaka</level>
                     </section>
             </section>
-        </div>
     </main>
     <!--Footer Section-->
         <footer>
